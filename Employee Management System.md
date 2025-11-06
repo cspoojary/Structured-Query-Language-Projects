@@ -46,7 +46,7 @@ JOIN departments d ON e.dept_id = d.dept_id
 JOIN salary s ON e.emp_id = s.emp_id
 GROUP BY d.dept_name;
 ```
-#  Employee Salary Statistics (SQL Query)
+##  Employee Salary Statistics (SQL Query)
 
 This project demonstrates how to retrieve **salary statistics** — such as maximum, average, and minimum salary — for each employee using SQL aggregate functions.
 
@@ -76,3 +76,54 @@ FROM
 JOIN salary s ON e.emp_id = s.emp_id
 GROUP BY e.emp_id, e.emp_name;
 ```
+## Employees Joined Per Year (SQL Query)
+
+This query displays the **total number of employees** who joined in each year, based on their hire date.
+
+---
+
+##  **Concepts Used**
+- **`YEAR()`** → Extracts the year from the `hire_date`.
+- **`COUNT()`** → Counts how many employees joined in that year.
+- **`GROUP BY`** → Groups employees by year.
+- **`ORDER BY`** → Sorts the results in ascending order of years.
+
+---
+
+##  **SQL Query**
+```sql
+SELECT 
+    YEAR(hire_date) AS hire_year,
+    COUNT(emp_id) AS total_employees
+FROM 
+    employees
+GROUP BY 
+    YEAR(hire_date)
+ORDER BY 
+    hire_year;
+```
+# How It Works
+
+The **YEAR(hire_date)** extracts the year from each employee’s hiring date.
+
+**COUNT(emp_id)** calculates how many employees joined in that year.
+
+The **GROUP BY** statement groups results by each unique year.
+
+The **ORDER BY hire_year** sorts results chronologically.
+
+---
+
+##  Tools Used
+
+- MySQL Workbench or any SQL editor  
+- Works in most relational databases with the YEAR() function  
+
+---
+
+##  Author
+
+**Chaithanya S**  
+🎓 B.Sc. in Mathematics & Computer Science  
+💡 Passionate about SQL, Data Analysis, and Database Management
+"""
