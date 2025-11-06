@@ -46,3 +46,33 @@ JOIN departments d ON e.dept_id = d.dept_id
 JOIN salary s ON e.emp_id = s.emp_id
 GROUP BY d.dept_name;
 ```
+#  Employee Salary Statistics (SQL Query)
+
+This project demonstrates how to retrieve **salary statistics** — such as maximum, average, and minimum salary — for each employee using SQL aggregate functions.
+
+---
+
+## **Concepts Covered**
+- Aggregate Functions:
+  - `MAX()` → Finds the **highest salary** of an employee.
+  - `AVG()` → Calculates the **average salary**.
+  - `MIN()` → Finds the **lowest salary**.
+- `ROUND()` → Used to format the average salary to two decimal places.
+- `GROUP BY` → Groups results by employee to perform calculations per person.
+- `JOIN` → Combines data from multiple related tables.
+
+---
+
+##  **SQL Query**
+```sql
+SELECT 
+    e.emp_id,
+    e.emp_name,
+    MAX(s.total_salary) AS max_sal,
+    ROUND(AVG(s.total_salary), 2) AS avg_sal,
+    MIN(s.total_salary) AS min_sal
+FROM 
+    employees e
+JOIN salary s ON e.emp_id = s.emp_id
+GROUP BY e.emp_id, e.emp_name;
+```
