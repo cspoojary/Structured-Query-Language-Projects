@@ -127,4 +127,3 @@ The **ORDER BY hire_year** sorts results chronologically.
 🎓 B.Sc. in Mathematics & Computer Science  
 💡 Passionate about SQL, Data Analysis, and Database Management
 """
-[Chaithanya Analytics Lab](https://github.com/cspoojary/Chaithanya-Analytics-Lab)
