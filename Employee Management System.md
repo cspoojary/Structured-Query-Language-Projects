@@ -127,4 +127,4 @@ The **ORDER BY hire_year** sorts results chronologically.
 🎓 B.Sc. in Mathematics & Computer Science  
 💡 Passionate about SQL, Data Analysis, and Database Management
 """
-[Project file](https://classroom.google.com/c/NzUxOTY2MDI4NTM0/m/Nzg5NDc0NDkwNTkz/details)
+[Project file]([https://classroom.google.com/c/NzUxOTY2MDI4NTM0/m/Nzg5NDc0NDkwNTkz/details](https://github.com/cspoojary/Structured-Query-Language-Projects/blob/main/Employee%20Management%20System.sql))
