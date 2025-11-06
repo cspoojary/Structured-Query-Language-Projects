@@ -6,7 +6,7 @@ This project contains SQL scripts for an **Employee Management System** — desi
 
 ## **Project Contents**
 
-**File:** `Employee Management System.sql`
+**File:** [Employee Management System](https://github.com/cspoojary/Structured-Query-Language-Projects/blob/main/Employee%20Management%20System.sql)
 
 This SQL file includes:
 - Database and table creation scripts  
