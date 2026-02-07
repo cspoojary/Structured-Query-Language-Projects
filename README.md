@@ -43,14 +43,4 @@ The purpose of these projects is to strengthen understanding of:
 - Analyzing data through grouping and functions  
 - Building real-world database projects step-by-step  
 
----
-
-## 👨‍💻 **Author**
-
-**Chaithanya S** 
-🎓 B.Sc. in Mathematics & Computer Science  
-💡 Passionate about SQL, Data Analysis, and Database Management  
-
----
-
-⭐ *If you find these projects helpful, please give this repository a star!*
+*If you find these projects helpful, please give this repository a star!*
